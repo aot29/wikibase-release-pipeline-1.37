@@ -1,4 +1,7 @@
-# Wikibase release pipeline
+# Wikibase release pipeline 1.37
+Fork of https://github.com/wmde/wikibase-release-pipeline
+
+Update to 1.37
 
 ## Repository overview
 
