@@ -1,7 +1,9 @@
 # Wikibase release pipeline 1.37
 Fork of https://github.com/wmde/wikibase-release-pipeline
 
-Update to 1.37
+Goal: Update to 1.37
+
+`./build.sh all .env`
 
 ## Repository overview
 
