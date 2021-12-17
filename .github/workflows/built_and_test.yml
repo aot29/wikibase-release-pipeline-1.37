@@ -70,7 +70,7 @@ jobs:
 
       - name: Store release version docker image on GHCR
         if: github.ref == 'refs/heads/main'
-        uses: wmde/tag-push-ghcr-action@v3
+        uses: wmde/tag-push-ghcr-action@v4
         with:
           image_name: ${{ env.WIKIBASE_IMAGE_NAME }}
           tag: ${{ github.run_id }}
@@ -139,7 +139,7 @@ jobs:
 
       - name: Store release version docker image on GHCR
         if: github.ref == 'refs/heads/main'
-        uses: wmde/tag-push-ghcr-action@v3
+        uses: wmde/tag-push-ghcr-action@v4
         with:
           image_name: ${{ env.WIKIBASE_BUNDLE_IMAGE_NAME }}
           tag: ${{ github.run_id }}
@@ -206,7 +206,7 @@ jobs:
 
       - name: Store release version docker image on GHCR
         if: github.ref == 'refs/heads/main'
-        uses: wmde/tag-push-ghcr-action@v3
+        uses: wmde/tag-push-ghcr-action@v4
         with:
           image_name: ${{ env.QUICKSTATEMENTS_IMAGE_NAME }}
           tag: ${{ github.run_id }}
@@ -253,7 +253,7 @@ jobs:
 
       - name: Store release version docker image on GHCR
         if: github.ref == 'refs/heads/main'
-        uses: wmde/tag-push-ghcr-action@v3
+        uses: wmde/tag-push-ghcr-action@v4
         with:
           image_name: ${{ env.WDQS_IMAGE_NAME }}
           tag: ${{ github.run_id }}
@@ -298,7 +298,7 @@ jobs:
 
       - name: Store release version docker image on GHCR
         if: github.ref == 'refs/heads/main'
-        uses: wmde/tag-push-ghcr-action@v3
+        uses: wmde/tag-push-ghcr-action@v4
         with:
           image_name: ${{ env.WDQS_PROXY_IMAGE_NAME }}
           tag: ${{ github.run_id }}
@@ -372,7 +372,7 @@ jobs:
 
       - name: Store release version docker image on GHCR
         if: github.ref == 'refs/heads/main'
-        uses: wmde/tag-push-ghcr-action@v3
+        uses: wmde/tag-push-ghcr-action@v4
         with:
           image_name: ${{ env.WDQS_FRONTEND_IMAGE_NAME }}
           tag: ${{ github.run_id }}
@@ -417,7 +417,7 @@ jobs:
 
       - name: Store release version docker image on GHCR
         if: github.ref == 'refs/heads/main'
-        uses: wmde/tag-push-ghcr-action@v3
+        uses: wmde/tag-push-ghcr-action@v4
         with:
           image_name: ${{ env.ELASTICSEARCH_IMAGE_NAME }}
           tag: ${{ github.run_id }}
